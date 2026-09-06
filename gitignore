@@ -1,0 +1,14 @@
+# API keys / secrets - never commit these
+opai.env
+*.env
+.streamlit/secrets.toml
+
+# local patient data - contains real health info, keep out of git
+patient_records.db
+*.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
